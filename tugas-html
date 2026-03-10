@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klinik Gigi - Manajemen Antrean & Rekam Medis</title>
+    <style>
+        /* CSS Sederhana untuk Layout */
+        body { font-family: Arial, sans-serif; margin: 0; display: flex; flex-direction: column; min-height: 100vh; }
+        header { background: #2c3e50; color: white; padding: 1rem; display: flex; align-items: center; justify-content: space-between; }
+        nav { background: #34495e; padding: 10px; }
+        nav a { color: white; margin-right: 15px; text-decoration: none; }
+        .container { display: flex; flex: 1; }
+        main { flex: 3; padding: 20px; background: #f4f4f4; }
+        aside { flex: 1; background: #ecf0f1; padding: 20px; border-left: 2px solid #bdc3c7; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 10px; margin-top: auto; }
+        .logo { font-size: 1.5rem; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span>🦷 DentalCare Digital</span>
+        </div>
+        <div>Sistem Manajemen Klinik Gigi</div>
+    </header>
+
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Antrean Pasien</a>
+        <a href="#">Rekam Medis</a>
+        <a href="#">Laporan</a>
+    </nav>
+
+    <div class="container">
+        <main>
+            <h2>Selamat Datang di Dashboard Klinik</h2>
+            <p>Pilih menu di atas untuk mengelola antrean atau melihat rekam medis pasien.</p>
+            </main>
+
+        <aside>
+            <h3>Statistik Hari Ini</h3>
+            <ul>
+                <li>Total Antrean: <strong>12</strong></li>
+                <li>Pasien Selesai: <strong>8</strong></li>
+                <li>Dokter Bertugas: <strong>3</strong></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 DentalCare Digital System - Versi 1.0.0</p>
+    </footer>
+
+</body>
+</html>
